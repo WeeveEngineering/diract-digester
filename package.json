@@ -1,0 +1,36 @@
+{
+  "name": "diract-digester",
+  "homepage": "https://github.com/reelyactive/diract-digester/",
+  "author": {
+    "name": "reelyActive",
+    "email": "info@reelyactive.com"
+  },
+  "description": "Prepares diract-digest and/or diract-proximity data from a raddec stream.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "DirAct"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./lib/diractdigester.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/diract-digester.git"
+  },
+  "dependencies": {
+    "barnowl": "^1.1.0",
+    "barnowl-reel": "^0.1.10",
+    "raddec": "^0.2.5"
+  },
+  "bugs": {
+    "url": "https://github.com/reelyactive/diract-digester/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jeffrey Dungen"
+    }
+  ],
+  "license": "MIT"
+}
