@@ -1,7 +1,7 @@
 diract-digester
 ===============
 
-Prepares diract-digest and/or diract-proximity data from a raddec stream.
+Prepares diract-digest and/or diract-proximity data from a [raddec](https://github.com/reelyactive/raddec) stream.  See also the documentation on [DirAct](https://reelyactive.github,io/diract/).
 
 
 Installation
@@ -47,13 +47,13 @@ The (real-time) DirAct proximity packet and (compiled) DirAct digest are structu
 ### DirAct Proximity
 
     {
+      instanceId: "01234567",
       cyclicCount: 5,
-      instanceId: '01234567',
       acceleration: [ 0.0, 0.0, 1.0 ],
       batteryPercentage: 99,
       nearest: [
-        { instanceId: '0aaaaaaa', rssi: -52 },
-        { instanceId: '0bbbbbbb', rssi: -61 }
+        { instanceId: "0aaaaaaa", rssi: -52 },
+        { instanceId: "0bbbbbbb", rssi: -61 }
       ],
       timestamp: 1589934703996
     }
@@ -65,12 +65,12 @@ The (real-time) DirAct proximity packet and (compiled) DirAct digest are structu
       instanceId: '01234567',
       digestTimestamp: 3600,
       interactions: [
-        { instanceId: '0aaaaaaa', count: 7424 },
-        { instanceId: '0bbbbbbb', count: 1280 },
-        { instanceId: '0ccccccc', count: 512 },
-        { instanceId: '0ddddddd', count: 128 },
-        { instanceId: '0eeeeeee', count: 39 },
-        { instanceId: '0fffffff', count: 1 }
+        { instanceId: "0aaaaaaa", count: 7424 },
+        { instanceId: "0bbbbbbb", count: 1280 },
+        { instanceId: "0ccccccc", count: 512 },
+        { instanceId: "0ddddddd", count: 128 },
+        { instanceId: "0eeeeeee", count: 39 },
+        { instanceId: "0fffffff", count: 1 }
       ],
       timestamp: 1589934703996
     }
