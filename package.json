@@ -22,6 +22,8 @@
   "dependencies": {
     "barnowl": "^1.1.0",
     "barnowl-reel": "^0.1.10",
+    "dotenv": "^8.2.0",
+    "log4js": "^6.3.0",
     "raddec": "^0.2.5"
   },
   "bugs": {
